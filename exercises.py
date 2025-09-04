@@ -38,7 +38,11 @@ print('Exercise 1:', manage_students())
 # Use a for loop to iterate over the strings in foods and append each string to meal.
 
 def combine_foods():
-    # your code here
+    foods = ('Pho', 'Eggrolls', 'Springrolls', 'Bahn Mi')
+    meal = ''
+    for food in foods:
+        meal += food
+    return meal
 
 # Call the function and print the result
 print('Exercise 2:', combine_foods())
